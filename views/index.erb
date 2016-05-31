@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta property="og:image" content="http://rapper.hitokoto.co/img/og_image.jpg" />
+  <title>ラップ変換</title>
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="http://rapper.hitokoto.co/css/main.css">
+</head>
+<body>
+<div id="header">
+  <p>
+  <a href="/"><img src="http://rapper.hitokoto.co/img/title.png" class="header"></a>
+  </p>
+  <p>
+  ラップ変換します。
+  </p>
+</div>
+<div id="contents">
+  <div class="form">
+  <form method="post" action="/">
+  <p>
+      <textarea name="lyric" rows="10" cols="90"></textarea>
+  </p>
+  <p>
+      <input type="submit" value="送信" />
+      <input type="reset" value="取り消し" />
+  </p>
+  </form>
+  </div>
+
+  <div class="res">
+    <p><%= @res %></p>
+  </div>
+</div>
+<div id="twitter">
+<p>
+  <a href="https://twitter.com/share" class="twitter-share-button" data-text="<%= @res_no_br %> #ラップ変換">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+</p>
+<p>
+  <a class="twitter-timeline"  href="https://twitter.com/hashtag/%E3%83%A9%E3%83%83%E3%83%97%E5%A4%89%E6%8F%9B" data-widget-id="737508559550701568">#ラップ変換 Tweets</a>
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>          
+</p>
+</div>
+<div id="footer">
+<br />
+このサイトは、<a href="https://github.com/suzuki86/rhymer">Rhymer</a> を利用させていただいております。
+</div>
+</body>
+</html>

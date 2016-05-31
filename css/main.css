@@ -1,0 +1,60 @@
+body {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  color : #000000;
+  margin-right: auto;
+  margin-left : auto;
+  width:700px;
+  font-size:14px;
+}
+
+#header{
+  width:auto;
+  height:auto;
+  text-align : center;
+}
+
+textarea {
+  width: 700px;
+  height: 10em;
+}
+
+#contents{
+  width:auto;
+  min-height:auto;
+  color : #000000;
+  margin-top:1.5%; 
+  margin-bottom: 1.5%;
+  background-color :#ffffff;
+  line-height: 1.5em;
+  border-radius: 15px;
+}
+
+#contents.form{
+  margin-right: auto;
+  margin-left : auto;
+}
+
+#contents .res{
+  width: auto;
+  height: auto;
+  color : #000;
+  text-align : center;
+  font-weight: bolder;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+#twitter{
+  width: auto;
+  height: auto;
+  color : #000;
+  text-align : center;
+}
+
+#footer{
+  width: auto;
+  height: auto;
+  color : #000;
+  text-align : center;
+}
+
